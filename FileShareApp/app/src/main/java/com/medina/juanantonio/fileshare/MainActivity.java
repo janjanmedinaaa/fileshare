@@ -23,6 +23,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.webkit.WebView;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
@@ -57,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
 
     private ArrayList<FileModel> fileList = new ArrayList<>();
     private ArrayList<FileModel> rawFileList = new ArrayList<>();
+
+    public static String CLI_URL = "https://github.com/janjanmedinaaa/fileshare";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -217,11 +220,19 @@ public class MainActivity extends AppCompatActivity {
 
         editText = (EditText) promptView.findViewById(R.id.textInput);
         final ImageButton qrButton = (ImageButton) promptView.findViewById(R.id.qrButton);
+        final Button installButton = (Button) promptView.findViewById(R.id.installButton);
 
         qrButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, QRScanner.class));
+            }
+        });
+
+        installButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(CLI_URL)));
             }
         });
 
