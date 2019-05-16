@@ -14,3 +14,15 @@ $ fileshare --port=1234 --ngrok=NGROK_KEY
 ## Screenshots
 
 ### Web
+
+#### Web Interface
+![Web Interface](https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/web-display.png)
+
+#### Web API
+![Web API](https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/web-api.png)
+
+### Mobile
+
+![Mobile Home](https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/mobile-home.png)
+![Mobile QR Scanner](https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/mobile-scanner.png)
+![Mobile File Display](https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/mobile-display.png)
