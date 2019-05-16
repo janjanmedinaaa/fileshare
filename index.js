@@ -13,8 +13,6 @@ const html = require('./src/HTML');
 const folder = process.cwd();
 const networkInterfaces = os.networkInterfaces();
 
-// const authtoken = '7ho3YEqUP3yeVMzewhZqW_5FFdaRD2wvbJsvUoKv9Jc';
-
 var port = argv.port || 4576
 
 startNGROK = async(authtoken) => {
