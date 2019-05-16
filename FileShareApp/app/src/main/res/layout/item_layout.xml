@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginBottom="17dp"
+    android:elevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="18dp"
+        android:paddingVertical="14dp"
+        android:background="#DD997F"
+        android:id="@+id/relativeLayout"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="18dp"
+            android:id="@+id/fileIcon"
+            android:src="@drawable/ic_default_file_white"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File.xml"
+            android:fontFamily="sans-serif"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/fileName"
+            android:layout_toRightOf="@id/fileIcon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Date Modified: 01-01-01 10:10:10"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:id="@+id/lastDateModified"
+            android:layout_below="@id/fileName"
+            android:layout_toRightOf="@id/fileIcon"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
