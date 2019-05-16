@@ -23,6 +23,10 @@ $ fileshare --port=1234 --ngrok=NGROK_KEY
 
 ### Mobile
 
-![Mobile Home](https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/mobile-home.png)
-![Mobile QR Scanner](https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/mobile-scanner.png)
-![Mobile File Display](https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/mobile-display.png)
+<p float="left">
+  <img src="https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/mobile-home.png" width="200" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/mobile-scanner.png" width="200" /> 
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/janjanmedinaaa/fileshare/master/images/mobile-display.png" width="200" />
+</p>
